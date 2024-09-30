@@ -1,7 +1,12 @@
 # GigBook: Shows Your Shows
 <img width="240" alt="image" src="https://github.com/user-attachments/assets/dc824677-a667-4376-8344-ac8152dce19b">
 
+
 ## Project Description
+
+Version	Changes	Date
+v1.0	Initial project outline.	
+v1.1	Wireframes change & UI difference.
 
 GigBook is an app dedicated to tracking all the concerts and live music users attend. Its purpose is to serve as a journal to document all the live music experiences users have. Users will be able to create their own GigBook with a unique name and customize it through color, themes, and layout. A GigBook will contain different entries for every concert. Each entry will include information such as:
 
@@ -45,4 +50,52 @@ The app will be built for Android Mobile devices. Kotlin/Java will be the progra
 ![3](https://github.com/user-attachments/assets/aa09a557-5a38-4187-a646-2bb6feb072fe)
 ![4](https://github.com/user-attachments/assets/6d16c3ed-3f8a-4391-904f-fb3a2b651d09)
 ![5](https://github.com/user-attachments/assets/861286bd-6282-4bbf-95db-25afa36fb86c)
+
+## Project Update
+An update to the GigBook’s UI is listed beside this, now when you click an entry the following design will be showcased. 
+
+Here’s an arrangement for how the app will be built: 
+
+app/ 
+
+├── ui/ │
+
+
+├── MainActivity.kt │ 
+
+
+├── AuthActivity.kt │ 
+
+
+├── CreateGigBookActivity.kt │ 
+
+
+├── GigBookActivity.kt │ 
+
+
+└── AddConcertActivity.kt 
+
+
+├── models/ │ 
+
+
+├── GigBook.kt 
+
+
+│ └── ConcertEntry.kt 
+
+
+├── utils/ 
+
+
+│ └── FirestoreUtils.kt        
+
+The menu has also been changed to be more user-friendly, it will utilize those recognizable icons to better fit the needs of the user. 
+
+
+
+The User profile also looks different, allowing users to add background images that make their profile more unique. 
+
+The User profile also looks different, allowing users to add background images that make their profile more unique. 
+
 
